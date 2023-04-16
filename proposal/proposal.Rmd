@@ -1,7 +1,7 @@
 ---
-title: "Title"
+title: "Labor Force Relationship With Education"
 author: 
-  - Last Name, First Name[^1]
+  - Mertaslan, Petek[^1]
 bibliography: ../bibliography/biblio.bib
 csl: ../csl/apa.csl
 header-includes:
@@ -32,7 +32,7 @@ knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FAL
 <!-- ======================================================================= -->
 <!-- ============================== FOOTNOTES ============================== -->
 <!-- ======================================================================= -->
-[^1]: Student ID, [Github Repo](https://github.com/YOUR_USER_NAME_HERE/YOUR_REPO_NAME_HERE)
+[^1]: 19080780, [Github Repo](https://github.com/petekmertaslan/Midterm.git)
 
 # Important Information About Midterm
 
@@ -45,21 +45,31 @@ knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FAL
 \colorbox{WildStrawberry}{Read the README.md file in the project folder for more information.}
 
 # Introduction
-This outline has been created to assist you in writing your project assignment. You should cite all the sources you use, articles, presentations, projects, etc. Quoting and referencing gives readers the opportunity to access the resources you refer. **Even though you use your own words, if you are conveying the ideas of others in your work, you have to document the source of these ideas. Otherwise, you are committing academic plagiarism.** For example, you can refer to @aydinonat:2007 for academic writing rules. You can find lots of online resources on this topic.
 
-The sections in your project assignment must necessarily include the sections in this text (except the first section, of course). Apart from the sections used here, you can use different subsections. When writing your project, use this file as a draft and adapt its content to your purposes.
+In this section, the evaluations of the workforce in terms of gender, age and education are discussed. The ILOSTAT database was used in the evaluation. The subject was evaluated over 59 countries and 12 regions. Also, 2 genders, male and female, were evaluated. In addition, the age range was discussed over five different aggregate bands. Moreover, educational status was classified based on ISCED-11 and ISCED-97 data. Finally, the year range was set to 2005 and 2015.The question asked at this point is whether level of education affects the labor force in different countries,moreover, how can we evaluate this situation in terms of gender and age? The results obtained from the studies on the subject and the articles written with observations were also examined. Also, it was observed in the articles that were in the same context with the subject. 
 
-In this section, mention the purpose and importance of your work in a few paragraphs.
+
+
+
 
 ## Literature Review
 
-In this section, discuss the articles you have read on the subject by giving references. This is a narrative citation @chang:2013. This one is a parenthetical citation [@chang:2013]. **Do not summarize each article individually under a separate title.** In the literature review section, **at least four** articles must be cited [@newbold:2003; @verzani:2014; @wickham:2014; @wooldridge:2015a].
+Many different values and observations are considered in determining the worldwide labor force. The obtained data are categorized as different indicators and tables and maps are prepared over the variables. The data in the ILOSTAT database, which is open to observation, allows us to consider the workforce from different perspectives. Many data sets have been created in terms of labor force over the data obtained from almost all countries. Labor force by sex, age and education is one of the sets created. The data created with the sources obtained on this subject is the main content of this observation.Estimates of past and present labor force participation rates by age, sex, and highest level of educational attainment are based on the European Labor Force Survey [@EULFS] collected by the national statistical institutes and provided by Eurostat [@Loichinger,2015].The labor force is equivalent to the economically active population of a country, and is composed of everyone who is either employed or unemployed. Employment (civilian and non-civilian, including conscripts) is defined as any work for pay or profit for at least one hour during the reference week of the labor force survey [@Loichinger, 2015]. Although gender and age elements are the main elements in tabulating the workforce, education is included in research as one of the determining elements in this regard. Employment rates rise with educational attainment in most OECD countries. With few exceptions, the employment rate for graduates of tertiary education is markedly higher than the rate for upper secondary graduates. For males, the gap is particularly wide between upper secondary graduates and those without an upper secondary qualification.Compared to people who have not completed upper secondary education, people who have completed upper secondary education are much more likely to be in work, but the employment advantage of upper secondary attainment varies across countries. Differences in employment rates between males and females are also wider among less educated groups.The chance of being in employment is 23 percentage points higher for males than for females among those without upper secondary qualifications, falling to 10 points for the most highly qualified.[@OECD,2007].Unemployment rates decline with higher education level. The job prospects of people with different levels of education have been found to be highly dependent on the needs of the labor market and the table of workers with different. It has been observed that people with low educational qualifications are both less likely to join the workforce and more likely to be unemployed, even if they are actively looking for work. They feel economically at risk. In addition, while men's education levels have a consistent effect on their labor force participation, the same result has not emerged for women. While the reason for this may be discrimination or discouraged female employees, it may also be the work environment or the level of the job.To conclude, labor force by sex,age and education has its own results around the world but in general there are " gender roles" and male/female differences has outcomes. Also, age is determinant for surveys and labor market. In addition, education is also about employment and unemployment rates because it has a impact on decisions about labor forces. Labor force determinants are international and differce from country to country.
+
+
+```{r}
+library(tidyverse)
+view(ILOSTATDATA)
+```
 
 
 
-**References section is created automatically by Rmarkdown. There is no need to change the references section in the draft file.**
 
-**_You shouldn't delete the last 3 lines. Those lines are required for References section._**
+
+
+
+
+
 
 \newpage
 # References {#references}
